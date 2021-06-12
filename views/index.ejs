@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sparks Educational Fund</title>
+
+    <!-- google fonts cdn link  -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="/css/stylesheet.css">
+
+</head>
+
+<body>
+
+    <%- include('navbar'); -%>
+
+
+    <!-- home section starts  -->
+
+    <section class="home" id="home">
+
+        <div class="content">
+            <h1>Charity sees the need, not the cause</h1>
+            <p>Life is an exciting business and most exciting when it is lived for others</p>
+            <form><script src="https://checkout.razorpay.com/v1/payment-button.js" data-payment_button_id="pl_HLgC4UlxBLDX6l" async> </script> </form>
+        </div>
+
+        <div class="image">
+            <img src="images/hero-img.png" alt="">
+        </div>
+
+    </section>
+
+
+
+
+    <!-- home section ends -->
+
+    <%- include('about'); -%>
+
+    <%- include('story'); -%>
+
+    <%- include('contact'); -%>
+
+    <%- include('footer'); -%>
+
+    <!-- jquery cdn link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+    <!-- custom js file link  -->
+    <script src="/js/scripts.js"></script>
+
+</body>
+
+</html>
